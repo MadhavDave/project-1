@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana; 
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+#minicircle{
+    
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    z-index: 99999;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+#main{
+    width: 100%;
+    background-color: black;
+}
+
+.bounding{
+    width: fit-content;
+    overflow: hidden;
+}
+
+.bounding .boundingelem{
+    transform: translateY(100%);
+}
+
+
+
+#hero{
+    position: relative;
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 40px;
+    color: #fff;
+}
+
+#nav a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+}
+
+#heading{
+    margin-top: 90px;
+}
+
+#heading h1{
+    font-size: 7vw;
+    opacity: .6;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-left: 30px;
+    font-family: "Roboto", sans-serif;
+}
+
+#heading #secondh1{
+    margin-left: 200px;
+}
+
+.blocklist{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: fit-content;
+}
+
+.blocklist h5{
+    text-transform: uppercase;
+    text-align: right;
+}
+
+#nanuheading{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 120px;
+    padding-right: 30px;
+}
+
+#nanuheading h5{
+    text-transform: uppercase;
+    margin-top: .7vw;
+    font-size: .7vw;
+    text-align: right;
+}
+
+#herofooter{
+    padding: 0 2vw;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#herofooter a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: .8vw;
+}
+
+#herofooter #iconset{
+    display: flex;
+    gap: 5px;
+}
+
+#herofooter .circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    background-color: #888;
+    border-radius: 50%;
+}
+
+#second{
+    color: #fff;
+    padding-top: 175px;
+    padding-right: 10vh;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+
+.elem{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 0;
+    width: 100%;
+    padding: 3.5vw 3vw;
+    border-top: 1px solid #888;
+}
+
+.elem h1{
+    text-transform: uppercase;
+    opacity: .6;
+    font-size: 3vw;
+}
+
+.elemlast{
+    border-bottom: 1px solid #888;
+}
+
+.elem img{
+    opacity: 0;
+    /* display: none; */
+    height: 140%;
+    z-index: 999;
+    position: absolute;
+}
+
+#about{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 10vw 10vw;
+    padding-left: 40vw;
+    width: 100%;
+    background-color: black;
+}
+
+#textabout{
+    width: 30rem;
+}
+
+#textabout h5{
+    text-transform: uppercase;
+    opacity: .6;
+    margin-bottom: 15px;
+}
+
+#textabout p{
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+#textabout a{
+    padding: 10px 20px;
+    font-weight: bold;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+#about img{
+    width: 200px;
+}
+
+#subscribe{
+    background-color: black;
+    color: #fff;
+    padding: 20px 20px;
+    padding-bottom: 8vw;
+}
+
+#subscribe h5{
+    text-transform: uppercase;
+    opacity: .6;
+}
+
+#subscribe h3{
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+#footer{
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+#footerleft{
+    display: flex;
+    gap: 20px;
+}
+
+#footerright{
+    display: flex;
+    gap: 25px;
+}
+
+#footer a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+
